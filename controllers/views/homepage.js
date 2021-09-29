@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
         };
       });
   
-      res.render("home", {blogs})
+      res.render("homepage", {blogs})
     } catch (err) {
       res.status(500).json(err);
     }
